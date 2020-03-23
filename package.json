@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host 0.0.0.0 --disableHostCheck",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
@@ -16,9 +17,17 @@
     "@angular/compiler": "~9.0.7",
     "@angular/core": "~9.0.7",
     "@angular/forms": "~9.0.7",
+    "@angular/localize": "^9.0.7",
     "@angular/platform-browser": "~9.0.7",
     "@angular/platform-browser-dynamic": "~9.0.7",
-    "@angular/router": "~9.0.7",
+    "@angular/router": "^9.0.7",
+    "@ng-bootstrap/ng-bootstrap": "^6.0.1",
+    "@types/openfin": "^49.0.0",
+    "ag-grid-angular": "^23.0.0",
+    "ag-grid-community": "^23.0.1",
+    "ag-grid-enterprise": "^23.0.1",
+    "openfin-cli": "^3.0.1",
+    "openfin-layouts": "^1.2.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

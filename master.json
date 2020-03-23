@@ -1,0 +1,17 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Order Summary",
+        "url": "http://lvh.me:4200/summary",
+        "uuid": "summary",
+        "saveWindowState": false,
+        "autoShow": true,
+        "contextMenu": true
+
+    },
+    "runtime": {
+        "version": "stable"
+    },
+    "services": [{"name": "layouts"}]
+
+}

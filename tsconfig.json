@@ -19,5 +19,10 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
+  "types": [ "openfin" ],
+  "typeRoots": [ "node_modules/@types" ],
+  "include": [
+    "./node_modules/@types/openfin"
+  ],
 }

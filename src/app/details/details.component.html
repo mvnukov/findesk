@@ -1,0 +1,13 @@
+<label style="height: 2em;">Hello {{received}}</label>
+<ag-grid-angular
+    #agGrid
+    style="width: 100vw; height: 100vh;"
+    class="ag-theme-alpine"
+    [rowData]="rowData | async"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    rowSelection="multiple"
+    (gridReady)="onGridReady($event)"
+    rowModelType="serverSide"
+    >
+</ag-grid-angular>

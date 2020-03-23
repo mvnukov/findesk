@@ -1,0 +1,16 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Order Details",
+        "url": "http://lvh.me:4200/details",
+        "uuid": "details",
+        "saveWindowState": false,
+        "autoShow": true,
+        "contextMenu": true
+    },
+    "runtime": {
+        "version": "stable"
+    },
+    "services": [{"name": "layouts"}]
+
+}
